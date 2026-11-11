@@ -1,0 +1,63 @@
+# Git Ignore for EduMatrix Project
+
+# Binaries & Archives
+*.apk
+*.aab
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+venv/
+.venv/
+venv39/
+venv*/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Databases & Exports
+*.db
+*.sqlite3
+attendance.db
+auraface.db
+attendance_exports/
+EduMatrix/EduMatrix/
+EduMatrix/attendance_exports/
+
+# Build logs & Temp files
+*.log
+*build_out*.txt
+*build_err*.txt
+*build_log*.txt
+*build_errors*.txt
+build_errors.txt
+build_output.txt
+build_output.log
+err.txt
+error.log
+error2.log
+out.log
+scratch/
+
+# Android / Gradle
+.gradle/
+build/
+app/build/
+EduMatrix_App/.gradle/
+EduMatrix_App/build/
+EduMatrix_App/app/build/
+local.properties
+.cxx/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
