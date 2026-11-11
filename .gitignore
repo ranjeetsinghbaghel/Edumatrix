@@ -32,26 +32,29 @@ EduMatrix/attendance_exports/
 
 # Build logs & Temp files
 *.log
-*build_out*.txt
-*build_err*.txt
-*build_log*.txt
-*build_errors*.txt
-build_errors.txt
-build_output.txt
-build_output.log
-err.txt
-error.log
-error2.log
+*.txt
+*.bak
+*.tmp
 out.log
 scratch/
+
+# Documentation & Non-repo exports
+Output/
+*.docx
+*.pptx
+*.pdf
 
 # Android / Gradle
 .gradle/
 build/
 app/build/
 EduMatrix_App/.gradle/
+EduMatrix_App/.kotlin/
 EduMatrix_App/build/
 EduMatrix_App/app/build/
+EduMatrix_App/*.txt
+EduMatrix_App/*.log
+EduMatrix_App/*.py
 local.properties
 .cxx/
 
